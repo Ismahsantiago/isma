@@ -14,4 +14,10 @@ Página pública con descargas y preview de tus CVs (EN/ES/PT + versiones “AI 
 
 ## Edición
 1. Edita los CVs en `cvs/*.md`.
-2. Regenera los PDFs usando el script del repo original en `../CVs/generate-cv-pdfs.sh` (si lo mantienes como fuente de verdad).
+2. Regenera los PDFs **localmente** (en tu workspace) ejecutando:
+
+   ```bash
+   ./CVs/generate-cv-pdfs.sh
+   ```
+
+   Luego commitea y empuja los PDFs resultantes para que el sitio se actualice.
