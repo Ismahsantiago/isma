@@ -1,23 +1,23 @@
 # Ismael Hernández Santiago · CVs (GitHub Pages)
 
-Página pública con descargas y preview de tus CVs (EN/ES/PT + versiones “AI recruiter”).
+Public page with downloads and preview of your CVs (EN/ES/PT + “AI recruiter” variants).
 
-## Contenido
-- `index.html`: landing principal
-- `styles.css`: estilos del sitio
-- `cvs/`: markdowns (`.md`) y PDFs (`.pdf`)
-  - `preview.html`: embebe `cv-en.pdf`
+## What’s inside
+- `index.html`: landing page
+- `styles.css`: site styles
+- `cvs/`: markdown sources (`.md`) and generated PDFs (`.pdf`)
+  - `preview.html`: embeds the `cv-en` file for quick viewing
 
 ## URLs
 - Landing: `./index.html`
 - Preview: `./cvs/preview.html`
 
-## Edición
-1. Edita los CVs en `cvs/*.md`.
-2. Regenera los PDFs **localmente** (en tu workspace) ejecutando:
+## Editing
+1. Update the CVs in `cvs/*.md`.
+2. If you also want PDFs, regenerate them locally (in your workspace) by running:
 
    ```bash
    ./CVs/generate-cv-pdfs.sh
    ```
 
-   Luego commitea y empuja los PDFs resultantes para que el sitio se actualice.
+   Then commit and push the updated PDFs so the site reflects the changes.
